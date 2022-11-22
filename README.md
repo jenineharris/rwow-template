@@ -30,7 +30,7 @@ The code between the `---` at the top of the document includes formatting detail
 The following should be changed to fit your project:
 
 <ul>
-  <li> Change the title, "Brown School RWoW Poster Template for your Fabulous Project" to your project title. Leave the "title: &lt;br&gt;" as it is.
+  <li> Change the title, "Using R for RWoW&#58; An R Markdown Poster Template for your Fabulous Project" to your project title. Leave the "title: &lt;br&gt;" as it is. Note that if you use an punctuation in your title, you maybe have to change it to <a href="https://www.ee.ucl.ac.uk/~mflanaga/java/HTMLandASCIItableC1.html">ASCII</a> so it renders properly.
   <li> Change the author name, "by Jenine K. Harris, PhD" to your name. Leave the "author:" and "- name: &lt;br&gt;" as it is.
 </ul>
 
