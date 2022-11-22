@@ -23,8 +23,8 @@ The code between the `---` at the top of the document includes formatting detail
 The following should be changed to fit your project:
 
 <ul>
-  <li> Change the title, "Brown School RWoW Poster Template for your Fabulous Project" to your project title. Leave the "title: <br>" as it is.
-  <li> Change the author name, "by Jenine K. Harris, PhD" to your name. Leave the "author:" and "- name: <br>" as it is.
+  <li> Change the title, "Brown School RWoW Poster Template for your Fabulous Project" to your project title. Leave the "title: /<br/>" as it is.
+  <li> Change the author name, "by Jenine K. Harris, PhD" to your name. Leave the "author:" and "- name: /<br/>" as it is.
 </ul>
 
 The following are optional changes: 
