@@ -25,7 +25,7 @@
 
 ### Updating the YAML
 
-The code between the `---` at the top of the document includes formatting details.
+The code between the `---` at the top of the document includes formatting details. Anything you change here can change the look and feel of the document. It is recommended that you make only necessary changes.
 
 The following should be changed to fit your project:
 
@@ -43,7 +43,7 @@ The following are optional changes:
 
 ### Updating the content
 
-Replace the # Introduction and everything afterwards with your text and code using regular R Markdown formatting features.
+Replace the `# Introduction` and everything afterwards with your text and code using regular R Markdown formatting features.
 
 Anytime you use a single hashtag to denote a section, this will result in a gray section header.
 
