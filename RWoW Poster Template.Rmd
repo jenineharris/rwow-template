@@ -1,5 +1,5 @@
 ---
-title: <br>Brown School RWoW Poster Template for your Fabulous Project
+title: <br>Using R for RWoW&#58; An R Markdown Poster Template for your Fabulous Project
 author:
   - name: <br>by Jenine K. Harris, PhD
 column_numbers: 3
@@ -51,13 +51,11 @@ This package uses the same workflow approach as the R Markdown you know and love
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat augue at velit tincidunt semper. Donec elementum porta posuere. Nullam interdum, odio at tincidunt feugiat, turpis nisi blandit eros, eu posuere risus felis non quam. Nam eget lorem odio. Duis et aliquet orci. Phasellus nec viverra est.
 
-To center a table1 table you need the center html tags below and after the code chunk.
+To center a table1 table you need the center html tags before and after the code chunk.
 
 <center>
 
-```{r mytable, align='center'}
-# the fig.width chunk option is necessary with table1
-# or it prints tiny
+```{r mytable}
 table1::table1(~ Sepal.Length + Species, data = iris,
                caption = "Table 1. This is the table it took me forever to make the text big enough for a poster.")
 ```
