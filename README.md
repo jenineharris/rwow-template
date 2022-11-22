@@ -40,12 +40,12 @@ Tables are difficult to format in R Markdown knitted documents. The template sho
 
 If you have a `table1` table in your poster, you must leave the css at the top for it to work (or it will be teeny tiny): 
 
-<style type="text/css">
+<style type="text/css"><br>
 
-table.Rtable1 {
-   font-family: "Palatino";
-   font-size: 45px;
-}
-</style>
+table.Rtable1 {<br>
+   font-family: "Palatino";<br>
+   font-size: 45px;<br>
+}<br>
+</style><br>
 
 ### HAVE FUN! What better place to have an R poster than R-WoW!
