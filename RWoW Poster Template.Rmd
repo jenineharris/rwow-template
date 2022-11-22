@@ -20,6 +20,7 @@ bibliography: packages.bib
 knit: pagedown::chrome_print
 ---
 
+```{=html}
 <style type="text/css">
 
 table.Rtable1 {
@@ -27,24 +28,24 @@ table.Rtable1 {
    font-size: 45px;
 }
 </style>
-
+```
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Introduction
 
-Welcome to `posterdown` ! This is my attempt to provide a semi-smooth workflow for those who wish to take their R Markdown skills to the conference world. Most features from R Markdown are available in this package such as Markdown section notation, figure captioning, and even citations like this one [@R-rmarkdown]. The rest of this example poster will show how you can insert typical conference poster features into your own document. 
+Welcome to `posterdown` ! This is my attempt to provide a semi-smooth workflow for those who wish to take their R Markdown skills to the conference world. Most features from R Markdown are available in this package such as Markdown section notation, figure captioning, and even citations like this one [@R-rmarkdown]. The rest of this example poster will show how you can insert typical conference poster features into your own document.
 
 ## Objectives
 
-1. Easy to use reproducible poster design. 
-2. Integration with R Markdown.
-3. Easy transition from `posterdown` to `pagedown` report or manuscript documents [@R-pagedown].
+1.  Easy to use reproducible poster design.
+2.  Integration with R Markdown.
+3.  Easy transition from `posterdown` to `pagedown` report or manuscript documents [@R-pagedown].
 
 # Methods
 
-This package uses the same workflow approach as the R Markdown you know and love. Basically it goes from RMarkdown > Knitr > Markdown > Pandoc > HTML/CSS > PDF. You can even use the bibliography the same way [@R-posterdown].
+This package uses the same workflow approach as the R Markdown you know and love. Basically it goes from RMarkdown \> Knitr \> Markdown \> Pandoc \> HTML/CSS \> PDF. You can even use the bibliography the same way [@R-posterdown].
 
 # Results
 
@@ -53,16 +54,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat augue 
 To center a table1 table you need the center html tags below and after the code chunk.
 
 <center>
+
 ```{r mytable, align='center'}
 # the fig.width chunk option is necessary with table1
 # or it prints tiny
 table1::table1(~ Sepal.Length + Species, data = iris,
                caption = "Table 1. This is the table it took me forever to make the text big enough for a poster.")
 ```
+
 </center>
 
 That's a nice table!
-
 
 # Maybe you are plotting something
 
