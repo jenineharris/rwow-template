@@ -8,8 +8,6 @@
 
 ### Download and Save Workshop Materials
 
-Download the participant files and save them together in the same folder on your computer:
-
 <ul>
 <li> Click on the green Code button toward the top of this GitHub page
 <li> Choose Download ZIP
