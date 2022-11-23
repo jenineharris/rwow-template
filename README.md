@@ -8,7 +8,7 @@ Make a research poster like this one using the R Markdown template for RWoW:
 
 1) Some experience with R, R Markdown, and R Studio are necessary to use this template
 2) R and R Studio software are necessary to use this template
-3) Install the `posterdown` package in R Studio before using the template
+3) Install the `posterdown` and `rmarkdown` packages in R Studio before using the template
 
 ### Download and Save the Template Files
 
