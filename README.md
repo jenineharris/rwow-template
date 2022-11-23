@@ -43,9 +43,9 @@ The following are optional changes:
 
 ### Update the Content
 
-Replace the `# Introduction` and everything afterwards with your text and code using regular R Markdown formatting features.
+Replace the `# Introduction` and everything afterwards with your project text, code, and output using regular R Markdown formatting features.
 
-Anytime you use a single hashtag to denote a section, this will result in a gray section header, see the knitted version.
+Anytime you use a single hashtag to denote a section, this will result in a gray section header, see the knitted version for an example.
 
 ### Other Formatting Edits to be Aware Of
 
