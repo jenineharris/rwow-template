@@ -6,7 +6,7 @@
 2) R and R Studio software are necessary to use this template
 3) Install the `posterdown` package in R Studio before using the template
 
-### Download and Save Workshop Materials
+### Download and Save the Template Files
 
 <ul>
 <li> Click on the green Code button toward the top of this GitHub page
@@ -14,7 +14,7 @@
 <li> Unzip the downloaded zip file and save all the files in a single folder on your computer
 </ul>
 
-### Test the poster template before using
+### Test the Poster Template Before Using
 
 <ul>
   <li> Double click the rwow-template.Rproj to open the R project where the template is stored
@@ -23,7 +23,7 @@
   <li> If it works, continue on!
 </ul>
 
-### Updating the YAML
+### Update the YAML
 
 The code between the `---` at the top of the document includes formatting details. Anything you change here can change the look and feel of the document. It is recommended that you make only necessary changes to the title and author.
 
@@ -41,15 +41,15 @@ The following are optional changes:
   <li> Make other changes to the look and feel in the YAML based on <a href = "https://github.com/brentthorne/posterdown/wiki/posterdown_html">this guide</a> that was the basis for the RWoW template.
 </ul>
 
-### Updating the content
+### Update the Content
 
 Replace the `# Introduction` and everything afterwards with your text and code using regular R Markdown formatting features.
 
 Anytime you use a single hashtag to denote a section, this will result in a gray section header, see the knitted version.
 
-### Other formatting edits to be aware of
+### Other Formatting Edits to be Aware Of
 
-Tables are difficult to format in R Markdown knitted documents. The template shows an example using `table1` to create your table. Other table code has not been tested so this is the recommended way to incorporate a table. Here is the <a href = "https://cran.r-project.org/web/packages/table1/vignettes/table1-examples.html">table1 vignette</a> for more information.
+Tables are difficult to format in R Markdown knitted documents. The template shows an example using `table1` to create a table. Other table code has not been tested so this is the recommended way to incorporate a table. Here is the <a href = "https://cran.r-project.org/web/packages/table1/vignettes/table1-examples.html">table1 vignette</a> for more information on using the `table1` package to make tables.
 
 If you have a `table1` table in your poster, you must leave the css at the top for it to work (or your table will be teeny tiny): 
 
