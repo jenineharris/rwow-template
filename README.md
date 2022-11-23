@@ -1,5 +1,9 @@
 ## Using the RWoW R Markdown Template
 
+Make a research poster like this one using the R Markdown template for RWoW:
+
+<img src = "https://github.com/jenineharris/rwow-template/blob/main/tiny-poster-image.jpg">
+
 ### Requirements
 
 1) Some experience with R and R Studio are necessary to use this template
